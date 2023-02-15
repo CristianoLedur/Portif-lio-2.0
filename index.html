@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristiano Ledur</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/portifolio.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="assets/logo.png">
+        <input type="checkbox" id="toggler">
+        <label for="toggler"><i class="ri-menu-line"></i></label>
+        <div class="menu-header">
+          <ul class="list-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portifólio</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="column section-home" id="home">
+      <div class="section-home-box">
+        <div class="box-home">
+          <img id="backgound-image0" src="assets/pincel1.svg" alt="imagem de fundo">
+          <h1>Cristiano Ledur</h1>
+          <p>Programador Front-End e entusiasta da tecnologia! 👨🏻‍💻</p>
+          <a href="assets/pdf/curriculo-cristiano-ledur.pdf" download>
+            <button>
+              <p>Ver Currículo</p> 
+              <img id="image-doc" src="assets/FrameCurriculo.png" alt="Incone de um documento">
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="column section-about" id="about">
+      <div class="about-box-left">
+        <img id="eu" src="assets/eu.jpg">
+        <div>
+          <a href="https://github.com/CristianoLedur">
+            <img class="logos" src="assets/githubBlue.png" alt="Logo github">
+          </a>
+          <a href="mailto:odevledur@gmail.com">
+            <img class="logos" id="logo-email" src="assets/emailBlue.png" alt="Icone de e-mail">
+          </a>
+          <a href="https://www.linkedin.com/in/cristiano-ledur/">
+            <img class="logos" src="assets/linkedinBlue.png" alt="Logo linkedin">
+          </a>
+        </div>
+      </div>
+      <div class="about-box-right">
+        <img src="assets/flechaDireita.svg" alt="Flecha apontando para a direita">
+        <h2>Conheça um pouco sobre mim</h2>
+        <p>Meu nome é Cristiano Ledur e sou um Desenvolvedor Front-End. Durante a pandemia, descobri a minha paixão pelo desenvolvimento de aplicações web e tenho estado me especializando na área desde então. Iniciei meus estudos na programação com cursos da Alura e hoje estou estudando Análise e Desenvolvimento de Sistemas. Estou sempre procurando maneiras de aprender e melhorar como profissional.</p>
+      </div>
+    </section>
+    <section class="column section-skills" id="skills">
+      <div class="section-skills-box">
+        <img class="arrow-right" src="assets/flechaDireita.svg" alt="Flecha apontando para a direita">
+        <h2>Habilidades:</h2>
+        <div class="icons-skills">
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Icone HTML5"/>
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Icone CSS3"/>
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Icone JS"/>
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Icone Github"/>
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Icone Git"/>
+        </div>
+        <img class="arrow-right" src="assets/flechaDireita.svg" alt="Flecha apontando para a direita">
+        <h2>Atualmente aprendendo:</h2>
+        <div class="icons-skills">
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Icone React"/>
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="Icone PHP"/>
+          <img class="icon-skills" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="Icone SqlLite"/>          
+        </div>
+      </div>
+      <img id="background-image1" src="assets/pincel2.svg" alt="imagem de fundo">
+    </section>
+    <section class="column section-portfolio" id="portfolio">
+      <button id="btn-left">
+        <img class="arrow-right" src="assets/flechaEsquerda.svg" alt="Flecha apontando para a esquerda" />
+      </button>
+      <div class="box-desktop">
+        <img class="screen-desktop" src="assets/desktop.png" alt="Imagem de fundo de uma tela de compuutador">
+        <a class="link-interface-desktop" target="_blank">
+          <img id="screen-portifolio-desktop" alt="Imagem do portifolio">
+        </a>
+      </div>
+      <div class="box-mobile">
+        <img class="screen-mobile" src="assets/mobile.png" alt="Imagem de fundo de uma tela de compuutador">
+        <a class="link-interface-mobile" target="_blank">
+          <img id="screen-portifolio-mobile" src="" alt="Imagem do portifolio">
+        </a>
+      </div>
+      <button id="btn-right">
+        <img class="arrow-right" src="assets/flechaDireita.svg" alt="Flecha apontando para a direita">
+      </button>
+    </section>
+    <section class="column section-contact" id="contact">
+      <div class="contact-info">
+        <h2>Envie-me uma nota rápida</h2>
+        <p>
+          Ou se você preferir me enviar algo mais longo, sinta-se à vontade para enviar um e-mail para <span>odevledur@gmail.com</span>
+        </p>
+        <div>
+          <a href="https://github.com/CristianoLedur">
+            <img class="logos" src="assets/githubBlue.png" alt="Logo github">
+          </a>
+          <a href="mailto:odevledur@gmail.com">
+            <img class="logos" id="logo-email" src="assets/emailBlue.png" alt="Icone de e-mail">
+          </a>
+          <a href="https://www.linkedin.com/in/cristiano-ledur/">
+            <img class="logos" src="assets/linkedinBlue.png" alt="Logo linkedin">
+          </a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form method="POST" action="https://formsubmit.co/odevledur@gmail.com">
+          <h2>Mande-me um email</h2>
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name" placeholder="Seu nome" required>
+          <label for="email">Endereço de email</label>
+          <input type="email" name="email" id="email" placeholder="Seu endereço de email" required>
+          <label for="message">Mensagem</label>
+          <textarea id="message" placeholder="Como posso ajudar?" name="message" rows="4" cols="50" required></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://cristianoledur.github.io/Portifolio/">
+          <button type="submit" id="submit-form">Enviar email</button>
+        </form>
+      </div>
+      <img id="background-image2" src="assets/pincel3.svg" alt="Imagem de fundo">
+    </section>
+    <footer class="column section-footer" id="footer">
+      <div>
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portifólio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contate-me</h2>
+        <ul>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="icons-contat">
+          <a href="https://github.com/CristianoLedur">
+            <img class="logos" src="assets/githubBlue.png" alt="Logo github">
+          </a>
+          <a href="mailto:odevledur@gmail.com">
+            <img class="logos" id="logo-email" src="assets/emailBlue.png" alt="Icone de e-mail">
+          </a>
+          <a href="https://www.linkedin.com/in/cristiano-ledur/">
+            <img class="logos" src="assets/linkedinBlue.png" alt="Logo linkedin">
+          </a>
+        </div>
+      </div>
+      <div class="copyright">
+        <img class="logo" src="assets/logo.png" alt="Logo">
+        <p>© 2023 Copyright - Desenvolvido por <a href="https://www.linkedin.com/in/cristiano-ledur/">Cristiano Ledur</a></p>
+      </div>
+    </footer >
+  </main>
+</body>
+</html>
