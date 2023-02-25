@@ -45,6 +45,7 @@ let btn_submit = document.getElementById("submit-form");
 let positionArray = 0;
 const arrayLegnth = portifolios.length;
 let intervalId;
+var isRunning = false;
 
 btn_submit.addEventListener("click", function(event) {
   event.preventDefault();
@@ -60,10 +61,31 @@ window.onload = function() {
   mobile.href = portifolios[0].linkPortifolio;
 }
 
-// Chama a função quando a tela for redimencionada
-window.onresize = function() {
-  checkWindowWidth();
-};
+// função chamar a função que altera slides no portifólio
+function checkWindowWidth() {
+  if(!isRunning) {
+    isRunning = true;
+    changePortfolio();
+    intervalId = setTimeout(checkWindowWidth, 5000);
+  }
+}
+
+// função para alterar slides
+function changePortfolio() {
+  // Obtém a largura da janela
+  const windowWidth = window.innerWidth;
+  // Verifica se a largura da janela é menor que 1250px
+  if (windowWidth < 1251) {
+    document.querySelector('#screen-portifolio-desktop').src = portifolios[positionArray].imageDesktop;
+    document.querySelector('#screen-portifolio-mobile').src = portifolios[positionArray].imageMobile;
+    desktop.href = portifolios[positionArray].linkPortifolio;
+    mobile.href = portifolios[positionArray].linkPortifolio;
+    incrementaPosition(positionArray);
+  } else {
+    clearInterval(intervalId);
+  }
+  isRunning = false;
+}
 
 // botão esquerdo portifólio
 btn_left.addEventListener("click", function() {
@@ -82,24 +104,6 @@ btn_right.addEventListener("click", function() {
   desktop.href = portifolios[positionArray].linkPortifolio;
   mobile.href = portifolios[positionArray].linkPortifolio;
 });
-
-// função para alterar slides no portifólio
-function checkWindowWidth() {
-  // Obtém a largura da janela
-  const windowWidth = window.innerWidth;
-
-  // Verifica se a largura da janela é menor que 1250px
-  if (windowWidth < 1251) {
-    document.querySelector('#screen-portifolio-desktop').src = portifolios[positionArray].imageDesktop;
-    document.querySelector('#screen-portifolio-mobile').src = portifolios[positionArray].imageMobile;
-    desktop.href = portifolios[positionArray].linkPortifolio;
-    mobile.href = portifolios[positionArray].linkPortifolio;
-    incrementaPosition(positionArray);
-    intervalId = setInterval(checkWindowWidth, 5000);
-  } else {
-    clearInterval(intervalId);
-  }
-}
 
 // incrementa contador
 function incrementaPosition(item) {
@@ -121,5 +125,3 @@ function decrementaPosition(item) {
 document.getElementsByTagName("form")[0].addEventListener("submit", function(event){
   event.preventDefault();
 });
-
-
