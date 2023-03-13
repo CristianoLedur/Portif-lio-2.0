@@ -29,9 +29,10 @@ main {
   height: 100%;
 }
 
+/* header */
+
 header {
   margin: 0 auto;
-  /*height: 150px;*/
   max-width: 1200px;
 }
 
@@ -68,6 +69,8 @@ header {
 .list-menu li a:hover {
   color: var(--color-blue);
 }
+
+ /* main */
 
 .column {
   max-width: 1200px;
@@ -146,7 +149,7 @@ header {
   margin-left: 5px;
 }
 
-/*continuando daqui*/
+/* about me */
 
 .section-about {
   display: flex;
@@ -523,20 +526,12 @@ form #message {
   font-size: 18px;
 }
 
-
-/* 
-ssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssss
-*/
-
-
 @media screen and (max-width: 1250px) {
 
+  /* header */
+  
   header {
     margin: 0 auto;
-    /*height: 80px;*/
     width: 90%;
   }
 
@@ -601,7 +596,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssss
     margin-left: 5px;
   }
 
-  /* sobre */
+  /* about me */
 
   .section-about {
     display: flex;
@@ -667,7 +662,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssss
     height: 30px;
   }
 
-  /* skils */
+  /* skills */
 
   .section-skills {
     margin: 120px auto;
@@ -704,8 +699,8 @@ ssssssssssssssssssssssssssssssssssssssssssssssss
   }
 
   .icon-skills {
-    height: calc(4vw + 4vh + .4vmin);
-    padding-right: 20px;
+    height: calc(4vw + 3vh + .1vmin);
+    padding-right: 15px;
     padding-bottom: 20px;
   }
 
@@ -745,8 +740,6 @@ ssssssssssssssssssssssssssssssssssssssssssssssss
   .box-mobile {
     display: none;
   }
-
-  /* falta testar as imagens nos portifólioos */
 
   /* Contato */
 
@@ -883,14 +876,10 @@ ssssssssssssssssssssssssssssssssssssssssssssssss
   }
 
 }
-  
-
-/* ssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssss
-ssssssssssssssssssssssssssssssssssssssssssssssss*/
 
 @media screen and (max-width:600px) {
+
+  /*  header */
   
   .menu-header {
     width: 100%;
@@ -938,6 +927,8 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
 
 @media screen and (max-width:450px){
 
+  /* header */
+  
   .menu-header {
     width: 100%;
     max-height: 0;
@@ -984,6 +975,8 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
     width: 90%;
   }
   
+  /* main */
+
   .section-home-box {
     height: calc(100vh - 60px);
   }
@@ -1030,7 +1023,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
   }
 
 
-  /* sobre */
+  /* about me */
     
   .section-about {
     display: flex;
@@ -1083,7 +1076,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
     line-height: 25px;
   }
 
-  /* skils */
+  /* skills */
 
   .section-skills {
     padding-top: 20px;
@@ -1121,7 +1114,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
   }
 
   .icon-skills {
-    height:60px;
+    height:50px;
     padding-right: 10px;
   }
 
@@ -1159,7 +1152,6 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
     width: 100%;
   }
   
-  
   .link-interface-mobile {
     width: 100%;
     height: 100%;
@@ -1173,7 +1165,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
     height: 100%;
   }
 
-  /* falta testar as imagens nos portifólioos */
+  /* Contact */
 
   .section-contact {
     height: 800px;
@@ -1301,6 +1293,7 @@ ssssssssssssssssssssssssssssssssssssssssssssssss*/
   }
   
   /* footer */
+
   .section-footer {
     display: flex;
     flex-direction: column;
