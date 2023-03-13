@@ -12,23 +12,23 @@
   <script src="js/portifolio.js" defer></script>
 </head>
 <body>
+  <header>
+    <nav class="column navbar">
+      <img class="logo" src="assets/logo.png">
+      <input type="checkbox" id="toggler">
+      <label for="toggler"><i class="ri-menu-line"></i></label>
+      <div class="menu-header">
+        <ul class="list-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portifólio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <main>
-    <header>
-      <nav class="navbar">
-        <img class="logo" src="assets/logo.png">
-        <input type="checkbox" id="toggler">
-        <label for="toggler"><i class="ri-menu-line"></i></label>
-        <div class="menu-header">
-          <ul class="list-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portifólio</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
     <section class="column section-home" id="home">
       <div class="section-home-box">
         <div class="box-home">
@@ -142,7 +142,9 @@
       </div>
       <img id="background-image2" src="assets/pincel3.svg" alt="Imagem de fundo">
     </section>
-    <footer class="column section-footer" id="footer">
+  </main>
+  <footer>
+    <div class="column section-footer">
       <div>
         <h2>Menu</h2>
         <ul>
@@ -173,7 +175,7 @@
         <img class="logo" src="assets/logo.png" alt="Logo">
         <p>© 2023 Copyright - Desenvolvido por <a href="https://www.linkedin.com/in/cristiano-ledur/">Cristiano Ledur</a></p>
       </div>
-    </footer >
-  </main>
+    </div>
+  </footer>
 </body>
 </html>
