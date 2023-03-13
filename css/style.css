@@ -529,7 +529,7 @@ form #message {
 @media screen and (max-width: 1250px) {
 
   /* header */
-  
+
   header {
     margin: 0 auto;
     width: 90%;
@@ -699,7 +699,7 @@ form #message {
   }
 
   .icon-skills {
-    height: calc(4vw + 3vh + .1vmin);
+    height: calc(3.8vw + 3.8vh + .4vmin);
     padding-right: 15px;
     padding-bottom: 20px;
   }
