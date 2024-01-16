@@ -1,27 +1,27 @@
 const portifolios = [
   {
-    imageDesktop: 'assets/portifolio/00-desktop.png',
-    imageMobile: 'assets/portifolio/00-mobile.png',
-    linkPortifolio: 'https://psychedelic-book.surge.sh/',
-    imageAlt: 'Imagem do portifolio do jogo da memória'
+    imageDesktop: 'assets/portifolio/08-desktop.png',
+    imageMobile: 'assets/portifolio/08-mobile.png',
+    linkPortifolio: 'https://github.com/CristianoLedur/TrabalhoFinalProg3/',
+    imageAlt: 'Imagem do portifólio Conecta IFRS '
   },
   {
-    imageDesktop: 'assets/portifolio/01-desktop.png',
-    imageMobile: 'assets/portifolio/01-mobile.png',
-    linkPortifolio: 'https://fantastic-question.surge.sh/',
-    imageAlt: 'Imagem do portifolio to-do list'
+    imageDesktop: 'assets/portifolio/07-desktop.png',
+    imageMobile: 'assets/portifolio/07-mobile.png',
+    linkPortifolio: 'https://svelt-kit-teal.vercel.app/',
+    imageAlt: 'Imagem do portifólio da galeria feita com SvelteKit'
   },
   {
-    imageDesktop: 'assets/portifolio/02-desktop.png',
-    imageMobile: 'assets/portifolio/02-mobile.png',
-    linkPortifolio: 'https://probable-substance.surge.sh/',
-    imageAlt: 'Imagem do portifolio do jogo da velha'
+    imageDesktop: 'assets/portifolio/06-desktop.png',
+    imageMobile: 'assets/portifolio/06-mobile.png',
+    linkPortifolio: 'https://teste-dev-junior-mtd-react-git-main-cristianoledur.vercel.app/',
+    imageAlt: 'Imagem do portifólio de card interativo'
   },
   {
-    imageDesktop: 'assets/portifolio/03-desktop.png',
-    imageMobile: 'assets/portifolio/03-mobile.png',
-    linkPortifolio: 'https://omniscient-wave.surge.sh/',
-    imageAlt: 'Imagem do portifolio utilizando JSON'
+    imageDesktop: 'assets/portifolio/05-desktop.png',
+    imageMobile: 'assets/portifolio/05-mobile.png',
+    linkPortifolio: 'https://humorous-wind.surge.sh/',
+    imageAlt: 'Imagem do portifolio validando formulário'
   },
   {
     imageDesktop: 'assets/portifolio/04-desktop.png',
@@ -30,11 +30,29 @@ const portifolios = [
     imageAlt: 'Imagem do portifolio utilizando API'
   },
   {
-    imageDesktop: 'assets/portifolio/05-desktop.png',
-    imageMobile: 'assets/portifolio/05-mobile.png',
-    linkPortifolio: 'https://humorous-wind.surge.sh/',
-    imageAlt: 'Imagem do portifolio validando formulário'
-  }
+    imageDesktop: 'assets/portifolio/03-desktop.png',
+    imageMobile: 'assets/portifolio/03-mobile.png',
+    linkPortifolio: 'https://omniscient-wave.surge.sh/',
+    imageAlt: 'Imagem do portifolio utilizando JSON'
+  },
+  {
+    imageDesktop: 'assets/portifolio/02-desktop.png',
+    imageMobile: 'assets/portifolio/02-mobile.png',
+    linkPortifolio: 'https://probable-substance.surge.sh/',
+    imageAlt: 'Imagem do portifolio do jogo da velha'
+  },
+  {
+    imageDesktop: 'assets/portifolio/01-desktop.png',
+    imageMobile: 'assets/portifolio/01-mobile.png',
+    linkPortifolio: 'https://fantastic-question.surge.sh/',
+    imageAlt: 'Imagem do portifolio to-do list'
+  },  
+  {
+    imageDesktop: 'assets/portifolio/00-desktop.png',
+    imageMobile: 'assets/portifolio/00-mobile.png',
+    linkPortifolio: 'https://psychedelic-book.surge.sh/',
+    imageAlt: 'Imagem do portifolio do jogo da memória'
+  } 
 ];
 
 let desktop = document.querySelector(".link-interface-desktop");
