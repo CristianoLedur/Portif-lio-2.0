@@ -1,19 +1,19 @@
 const portifolios = [
   {
-    imageDesktop: 'assets/portifolio/08-desktop.png',
-    imageMobile: 'assets/portifolio/08-mobile.png',
+    imageDesktop: 'assets/portifolio/08-desktop.PNG',
+    imageMobile: 'assets/portifolio/08-mobile.PNG',
     linkPortifolio: 'https://github.com/CristianoLedur/TrabalhoFinalProg3/',
     imageAlt: 'Imagem do portifólio Conecta IFRS '
   },
   {
-    imageDesktop: 'assets/portifolio/07-desktop.png',
-    imageMobile: 'assets/portifolio/07-mobile.png',
+    imageDesktop: 'assets/portifolio/07-desktop.PNG',
+    imageMobile: 'assets/portifolio/07-mobile.PNG',
     linkPortifolio: 'https://svelt-kit-teal.vercel.app/',
     imageAlt: 'Imagem do portifólio da galeria feita com SvelteKit'
   },
   {
-    imageDesktop: 'assets/portifolio/06-desktop.png',
-    imageMobile: 'assets/portifolio/06-mobile.png',
+    imageDesktop: 'assets/portifolio/06-desktop.PNG',
+    imageMobile: 'assets/portifolio/06-mobile.PNG',
     linkPortifolio: 'https://teste-dev-junior-mtd-react-git-main-cristianoledur.vercel.app/',
     imageAlt: 'Imagem do portifólio de card interativo'
   },
