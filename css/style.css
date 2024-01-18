@@ -44,11 +44,10 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-  padding: 15px 0;
 }
 
 .logo {
-  width: 335px;
+  width: 300px;
   height: 100px;
 }
 
@@ -68,6 +67,7 @@ header {
   font-size: 26px;
   font-weight: 500;
 }
+
 .list-menu li a:hover {
   color: var(--color-blue);
 }
@@ -95,6 +95,7 @@ header {
   position: absolute;
   z-index: 0;
   opacity: 0.6;
+  padding-top: 100px;
 }
 
 .box-home h1 {
@@ -926,6 +927,7 @@ footer {
     background-position: center;
     height: 80%;
     width: 80%;
+    margin-right: 5px;
   }
 
   #toggler:checked ~ .menu-header {
@@ -946,9 +948,10 @@ footer {
   nav {
     max-width: 360px;
   }
+
   .logo {
-    width: 280px;
-    height: 90px;
+    width: 250px;
+    height: 80px;
   }
 
   .list-menu {
@@ -971,8 +974,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
+    margin-right: 0;
   }
 
   #toggler:checked ~ .menu-header {
@@ -996,6 +1000,7 @@ footer {
   
   #backgound-image0 {
     height: 400px;
+    padding-top: 0px;
     z-index: 0;
   }
   
